@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <form>
+        <!-- Input tipo texto -->
+        <label for="texto">Texto:</label>
+        <input type="text" id="texto" name="texto">
+
+        <!-- Input tipo senha -->
+        <label for="inputSenha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+
+        <!-- Input tipo email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <!-- Input tipo número -->
+        <label for="numero">Número:</label>
+        <input type="number" id="numero" name="numero">
+
+        <!-- Grupo de inputs tipo rádio -->
+        <fieldset>
+            <legend>Escolha uma opção:</legend>
+            <input type="radio" id="opcao1" name="opcao" value="opcao1">
+            <label for="opcao1">Opção 1</label>
+            <input type="radio" id="opcao2" name="opcao" value="opcao2">
+            <label for="opcao2">Opção 2</label>
+            <input type="radio" id="opcao3" name="opcao" value="opcao3">
+            <label for="opcao3">Opção 3</label>
+            <input type="radio" id="opcao4" name="opcao" value="opcao4">
+            <label for="opcao4">Opção 4</label>
+        </fieldset>
+
+        <!-- Select com opções -->
+        <label for="selecionarOpcao">Selecione uma opção:</label>
+        <select id="selecionarOpcao" name="selecionarOpcao">
+            <option value="opcao1">Opção 1</option>
+            <option value="opcao2">Opção 2</option>
+            <option value="opcao3">Opção 3</option>
+            <option value="opcao4">Opção 4</option>
+        </select>
+
+        <!-- Botão de envio -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
